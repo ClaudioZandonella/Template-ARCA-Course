@@ -6,6 +6,7 @@ author_name: Author Name
 ## Introduction
 
 Welcome to the corse...
+check image
 
 You can use the [editor on GitHub](https://github.com/ClaudioZandonella/Template-ARCA-Course/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
