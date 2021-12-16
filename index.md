@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-* TOC {:toc}
+{:toc}
 
 ## master new 6
 

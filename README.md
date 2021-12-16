@@ -1,6 +1,6 @@
 # README
 
-* TOC {:toc}
+{:toc}
 
 Template ARCA course
 
