@@ -9,6 +9,10 @@
     background-color: #8C3031;
     background-image: none;
     background-image: linear-gradient(120deg, #8C3031, #8C3032);
+    position: fixed;
+    width: 100%;
+    display: block;
+    z-index: 10;
 }
 
 nav {

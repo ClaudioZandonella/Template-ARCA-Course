@@ -31,3 +31,19 @@ $(function() {
 
   $('img').on('load', sectionHeight);
 });
+
+
+// Change Size Header While Scrolling
+$(window).scroll(function(){
+    var distanceFromTop = $(document).scrollTop();
+    if(distanceFromTop < 150 )
+    {
+        // reduce div height to 250px
+        $('.header').css('height', '230' - $(document).scrollTop() + 'px');
+    }
+    else
+    {
+        // set minimum div height to 100px
+        $('.header').css('height', '100px');
+    }
+});
