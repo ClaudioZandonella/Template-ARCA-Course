@@ -36,14 +36,16 @@ $(function() {
 // Change Size Header While Scrolling
 $(window).scroll(function(){
     var distanceFromTop = $(document).scrollTop();
-    if(distanceFromTop < 150 )
+    if(distanceFromTop < 80 )
     {
-        // reduce div height to 250px
-        $('.header').css('height', '230' - $(document).scrollTop() + 'px');
+        // reduce div padding
+        $('.page-header').css('padding-top', '80' - $(document).scrollTop() + 'px');
+        $('.page-header').css('padding-bottom', '80' - $(document).scrollTop() + 'px');
     }
     else
     {
-        // set minimum div height to 100px
-        $('.header').css('height', '100px');
+        // set minimum div padding
+        $('.page-header').css('padding-top', '0px');
+        $('.page-header').css('padding-bottom', '0px');
     }
 });
