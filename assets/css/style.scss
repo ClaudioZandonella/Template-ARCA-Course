@@ -27,18 +27,18 @@
 }
 
 nav {
-  width: 270px;
-  position: fixed;
-  top: 370px;
-  left:50%;
-  margin-left:-720px;
-  text-align: right;
+    max-width: 25%;
+    position: fixed;
+    top: 370px;
+    left:50%;
+    margin-left:-720px;
+    text-align: right;
 
-  ul {
-    list-style: none;
-    list-style-image:none;
-    font-size: 16px;
-    line-height:26px;
+    ul {
+        list-style: none;
+        list-style-image:none;
+        font-size: 16px;
+        line-height:26px;
 
     li {
       padding: 5px 0px;
@@ -78,18 +78,20 @@ nav {
     //   border-right:solid 4px #39C;
     //   padding-right:13px;
     // }
-  }
+    }
 }
 
 
 /* Create four equal columns that floats next to each other */
 .column-toc {
-  float: left;
-  width: 25%;
+    float: left;
+    position: relative;
+    width: 25%;
 }
 
 .column-main {
-  float: left;
+  float: right;
+  position: relative;
   width: 75%;
 }
 
