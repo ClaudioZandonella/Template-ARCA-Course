@@ -36,11 +36,11 @@ $(function() {
 // Change Size Header While Scrolling
 $(window).scroll(function(){
     var distanceFromTop = $(document).scrollTop();
-    if(distanceFromTop < 80 )
+    if(distanceFromTop < 160 )
     {
         // reduce div padding
-        $('.page-header').css('padding-top', '80' - $(document).scrollTop() + 'px');
-        $('.page-header').css('padding-bottom', '80' - $(document).scrollTop() + 'px');
+        $('.page-header').css('padding-top', '80' - $(document).scrollTop()/2 + 'px');
+        $('.page-header').css('padding-bottom', '80' - $(document).scrollTop()/2 + 'px');
     }
     else
     {
