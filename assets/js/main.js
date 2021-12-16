@@ -91,14 +91,14 @@ $(window).scroll(function(){
 // Change Background Image Size While Scrolling
 $(window).scroll(function(){
     var distanceFromTop = $(document).scrollTop();
-    if(distanceFromTop < 120 )
+    if(distanceFromTop < 200 )
     {
-      // add button
-      $('.page-header').css('background-size', '150' - $(document).scrollTop()/2 + 'px');
+      // Change size
+      $('.page-header').css('background-size', '150' - $(document).scrollTop()/3.33 + 'px');
     }
     else
     {
-      // remove button
+      // Change size
       $('.page-header').css('background-size', '90px');
     }
 });
