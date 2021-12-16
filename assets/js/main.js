@@ -72,3 +72,18 @@ $(window).scroll(function(){
       $('.btn').css('display', 'none');
     }
 });
+
+// Move nav While Scrolling
+$(window).scroll(function(){
+    var distanceFromTop = $(document).scrollTop();
+    if(distanceFromTop < 80 )
+    {
+      // add button
+      $('nav').css('top', '370' - $(document).scrollTop() + 'px');
+    }
+    else
+    {
+      // remove button
+      $('nav').css('top', '290px');
+    }
+});
