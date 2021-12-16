@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+
+# MacOS utils
+.DS_Store
+
+# R utils
+renv/
+renv.lock
+.Rprofile
