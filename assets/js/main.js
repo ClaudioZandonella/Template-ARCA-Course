@@ -38,13 +38,13 @@ $(window).scroll(function(){
     var distanceFromTop = $(document).scrollTop();
     if(distanceFromTop < 160 )
     {
-        // reduce div padding
+        // reduce page-header padding
         $('.page-header').css('padding-top', '80' - $(document).scrollTop()/2 + 'px');
         $('.page-header').css('padding-bottom', '80' - $(document).scrollTop()/2 + 'px');
     }
     else
     {
-        // set minimum div padding
+        // set minimum page-header padding
         $('.page-header').css('padding-top', '0px');
         $('.page-header').css('padding-bottom', '0px');
     }
