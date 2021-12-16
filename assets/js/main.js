@@ -87,3 +87,18 @@ $(window).scroll(function(){
       $('nav').css('top', '290px');
     }
 });
+
+// Change Background Image Size While Scrolling
+$(window).scroll(function(){
+    var distanceFromTop = $(document).scrollTop();
+    if(distanceFromTop < 120 )
+    {
+      // add button
+      $('.page-header').css('background-size', '150' - $(document).scrollTop()/2 + 'px');
+    }
+    else
+    {
+      // remove button
+      $('.page-header').css('background-size', '90px');
+    }
+});
