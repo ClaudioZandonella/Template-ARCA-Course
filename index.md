@@ -1,6 +1,6 @@
 ---
 course_title: Welcome to GitHub Pages
-author: its me
+author_name: its me
 ---
 
 ## Master new 11
