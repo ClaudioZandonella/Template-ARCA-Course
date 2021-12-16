@@ -12,18 +12,18 @@
 }
 
 nav {
-  width: 230px;
+  width: 270px;
   position: fixed;
   top: 370px;
   left:50%;
-  margin-left:-680px;
+  margin-left:-720px;
   text-align: right;
 
   ul {
     list-style: none;
     list-style-image:none;
-    font-size: 14px;
-    line-height:24px;
+    font-size: 16px;
+    line-height:26px;
 
     li {
       padding: 5px 0px;
@@ -59,9 +59,9 @@ nav {
       &:hover { color: #999; }
     }
 
-    .active {
-      border-right:solid 4px #39C;
-      padding-right:13px;
-    }
+    // .active {
+    //   border-right:solid 4px #39C;
+    //   padding-right:13px;
+    // }
   }
 }
