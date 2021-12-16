@@ -36,40 +36,39 @@ $(function() {
 // Change Size Header While Scrolling
 $(window).scroll(function(){
     var distanceFromTop = $(document).scrollTop();
-    if(distanceFromTop < 160 )
+    if(distanceFromTop < 200 )
     {
-        // reduce page-header padding
-        $('.page-header').css('padding-top', '80' - $(document).scrollTop()/2 + 'px');
-        $('.page-header').css('padding-bottom', '80' - $(document).scrollTop()/2 + 'px');
+      // reduce page-header padding
+      $('.page-header').css('padding-top', '80' - $(document).scrollTop()/2 + 'px');
+      $('.page-header').css('padding-bottom', '80' - $(document).scrollTop()/2 + 'px');
 
-        // reduce page-header height
-        $('.page-header').css('height', '320' - $(document).scrollTop() + 'px');
+      // reduce page-header height
+      $('.page-header').css('height', '320' - $(document).scrollTop() + 'px');
 
-        // add button
-        $('.btn').css('display', 'inline-block');
-    }
-    else if(distanceFromTop < 200 )
-    {
-        // set minimum page-header padding
-        $('.page-header').css('padding-top', '0px');
-        $('.page-header').css('padding-bottom', '0px');
-
-        // set minimum page-header height
-        $('.page-header').css('height', '320' - $(document).scrollTop() + 'px');
-
-        // remove button
-        $('.btn').css('display', 'none');
     }
     else
     {
-        // set minimum page-header padding
-        $('.page-header').css('padding-top', '0px');
-        $('.page-header').css('padding-bottom', '0px');
+      // set minimum page-header padding
+      $('.page-header').css('padding-top', '0px');
+      $('.page-header').css('padding-bottom', '0px');
 
-        // set minimum page-header height
-        $('.page-header').css('height', '120px');
+      // set minimum page-header height
+      $('.page-header').css('height', '120px');
 
-        // remove button
-        $('.btn').css('display', 'none');
+    }
+});
+
+// Add/Remove button While Scrolling
+$(window).scroll(function(){
+    var distanceFromTop = $(document).scrollTop();
+    if(distanceFromTop < 80 )
+    {
+      // add button
+      $('.btn').css('display', 'inline-block');
+    }
+    else
+    {
+      // remove button
+      $('.btn').css('display', 'none');
     }
 });
