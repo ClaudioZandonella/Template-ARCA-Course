@@ -3,8 +3,9 @@ course_title: Welcome to ARCA Curse
 author_name: Author Name
 ---
 
-## Master new 11
+## Introduction
 
+Welcome to the corse...
 
 You can use the [editor on GitHub](https://github.com/ClaudioZandonella/Template-ARCA-Course/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
