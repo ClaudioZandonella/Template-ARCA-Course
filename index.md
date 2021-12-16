@@ -1,6 +1,6 @@
 ---
-course_title: Welcome to GitHub Pages
-author_name: its me
+course_title: Welcome to ARCA Curse
+author_name: Author Name
 ---
 
 ## Master new 11
