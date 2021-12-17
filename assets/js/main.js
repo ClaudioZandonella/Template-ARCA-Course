@@ -76,15 +76,10 @@ $(window).scroll(function(){
 // Move nav While Scrolling
 $(window).scroll(function(){
     var distanceFromTop = $(document).scrollTop();
-    if(distanceFromTop < 80 )
+    if(distanceFromTop > 70 )
     {
       // add button
-      $('nav').css('top', '370' - $(document).scrollTop() + 'px');
-    }
-    else
-    {
-      // remove button
-      $('nav').css('top', '290px');
+      $('nav').css('top', '70' + $(document).scrollTop() + 'px');
     }
 });
 

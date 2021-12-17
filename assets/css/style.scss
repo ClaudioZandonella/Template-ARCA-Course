@@ -27,9 +27,9 @@
 }
 
 nav {
-    max-width: 15%;
-    position: fixed;
-    top: 370px;
+    max-width: 100%;
+    position: absolute;
+    top: 70px;
     text-align: right;
 
     ul {
@@ -37,6 +37,8 @@ nav {
         list-style-image:none;
         font-size: 16px;
         line-height:26px;
+        padding-inline-start: 0px;
+
 
     li {
       padding: 5px 0px;
@@ -90,4 +92,5 @@ nav {
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
     color: #8C3031;
+    font-weight: bold;
 }
