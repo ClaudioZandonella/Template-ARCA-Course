@@ -103,19 +103,3 @@ $(window).scroll(function(){
     }
 });
 
-
-// Change on Scree Size
-
-$(window).resize(function() {
-
-  if ($(this).width() < 800) {
-
-    $('my_content').css('width', '100%');
-
-  } else {
-
-    $('my_content').css('width', '80%');
-
-    }
-
-});
