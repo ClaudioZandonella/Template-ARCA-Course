@@ -102,3 +102,20 @@ $(window).scroll(function(){
       $('.page-header').css('background-size', '90px');
     }
 });
+
+
+// Change on Scree Size
+
+$(window).resize(function() {
+
+  if ($(this).width() < 800) {
+
+    $('my_content').css('width', '100%');
+
+  } else {
+
+    $('my_content').css('width', '80%');
+
+    }
+
+});
