@@ -24,6 +24,7 @@
 
 .btn {
     padding: 0.35rem 0.75rem;
+    display: inline;
 }
 
 nav {
@@ -118,5 +119,9 @@ nav {
 
   #my_content {
     width: 100%;
+  }
+
+  .page-header {
+      background-image: none;
   }
 }
