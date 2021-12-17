@@ -81,20 +81,6 @@ nav {
     }
 }
 
-@media only screen and (max-width: 800px) {
-  #nav_bar {
-    display: none;
-  }
-
-  #content {
-    padding-right: 2rem;
-  }
-
-  #my_content {
-    width: 100%;
-  }
-}
-
 #nav_bar {
     margin-top: 240pt;
     float: left;
@@ -108,7 +94,6 @@ nav {
     width: 80%;
 }
 
-
 .main-content {
     max-width: 74rem;
     padding-top: 2rem;
@@ -120,4 +105,18 @@ nav {
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
     color: #8C3031;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+  #nav_bar {
+    display: none;
+  }
+
+  #content {
+    padding-right: 2rem;
+  }
+
+  #my_content {
+    width: 100%;
+  }
 }
