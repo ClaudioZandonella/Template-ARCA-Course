@@ -79,12 +79,12 @@ $(window).scroll(function(){
     if(distanceFromTop < 80 )
     {
       // Fixed
-      $('nav').css('top', '370px');
+      $('nav').css('top', '80px');
     }
     else
     {
       // increase
-      $('nav').css('top', (290 + $(document).scrollTop()) + 'px');
+      $('nav').css('top', (0 + $(document).scrollTop()) + 'px');
     }
 });
 
