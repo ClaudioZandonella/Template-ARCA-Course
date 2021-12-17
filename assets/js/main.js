@@ -76,15 +76,15 @@ $(window).scroll(function(){
 // Move nav While Scrolling
 $(window).scroll(function(){
     var distanceFromTop = $(document).scrollTop();
-    if(distanceFromTop > 70 )
-    {
-      // increase
-      $('nav').css('top', $(document).scrollTop() + 'px');
-    }
-    else
+    if(distanceFromTop < 80 )
     {
       // Fixed
       $('nav').css('top', '370px');
+    }
+    else
+    {
+      // increase
+      $('nav').css('top', (290 + $(document).scrollTop()) + 'px');
     }
 });
 
