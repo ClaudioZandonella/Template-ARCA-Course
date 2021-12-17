@@ -78,8 +78,13 @@ $(window).scroll(function(){
     var distanceFromTop = $(document).scrollTop();
     if(distanceFromTop > 70 )
     {
-      // add button
-      $('nav').css('top', '70' + $(document).scrollTop() + 'px');
+      // increase
+      $('nav').css('top', $(document).scrollTop() + 'px');
+    }
+    else
+    {
+      // Fixed
+      $('nav').css('top', '370px');
     }
 });
 
