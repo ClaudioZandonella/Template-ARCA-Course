@@ -52,6 +52,8 @@ nav {
         list-style: none;
         list-style-image:none;
         font-size: 16px;
+        color: #8C3031;
+        font-weight: bold;
         line-height:26px;
         padding-inline-start: 0px;
 
@@ -119,8 +121,13 @@ nav {
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-    color: #8C3031;
+    color: black;
     font-weight: bold;
+}
+
+a {
+  color: #8C3031;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 800px) {
