@@ -1,5 +1,5 @@
 ---
-course_title: Welcome to ARCA Curse
+course_title: Welcome to ARCA Course
 author_name: Author Name
 ---
 

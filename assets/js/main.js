@@ -64,7 +64,7 @@ $(window).scroll(function(){
     if(distanceFromTop < 80 )
     {
       // add button
-      $('.btn').css('display', 'inline-block');
+      $('.btn').css('display', 'inline');
     }
     else
     {
