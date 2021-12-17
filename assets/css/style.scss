@@ -82,7 +82,7 @@ nav {
 }
 
 @media only screen and (max-width: 800px) {
-  nav_bar {
+  #nav_bar {
     display: none;
   }
 
@@ -90,19 +90,19 @@ nav {
     padding-right: 2rem;
   }
 
-  my_content {
+  #my_content {
     width: 100%;
   }
 }
 
-nav_bar {
+#nav_bar {
     margin-top: 240pt;
     float: left;
     width: 15%;
     margin-right: 5%;
 }
 
-my_content {
+#my_content {
     margin-top: 240pt;
     float: left;
     width: 80%;
