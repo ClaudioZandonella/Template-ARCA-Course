@@ -81,6 +81,11 @@ nav {
     }
 }
 
+@media only screen and (max-width: 400px) {
+  #nav_bar {
+    display: none;
+  }
+}
 
 .main-content {
     max-width: 74rem;

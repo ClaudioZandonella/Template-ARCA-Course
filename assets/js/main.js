@@ -102,20 +102,3 @@ $(window).scroll(function(){
       $('.page-header').css('background-size', '90px');
     }
 });
-
-
-// Hiide sectionHeight
-
-$(window).resize(function() {
-
-  if ($(this).width() < 600) {
-
-    $('nav').hide();
-
-  } else {
-
-    $('nav').show();
-
-    }
-
-});
